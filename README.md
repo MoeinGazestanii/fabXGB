@@ -15,10 +15,3 @@ git clone https://github.com/MoeinGazestanii/fabXGB.git
 cd fabXGB
 pip install -r requirements.txt
 
-
-## Usage
-
-After cloning the repository, you can use fabXGB as follows:
-
-```python
-from fabxgb import FabXGBClassifier
