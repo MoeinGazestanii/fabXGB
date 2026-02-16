@@ -161,8 +161,7 @@ class FabXGBClassifier(BaseEstimator, ClassifierMixin):
 
 
 
-
-
+# Example_Usage
 if __name__ == "__main__":
     from sklearn.metrics import classification_report, confusion_matrix
     
