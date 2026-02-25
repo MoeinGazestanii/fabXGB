@@ -127,7 +127,7 @@ class FabXGBClassifier(BaseEstimator, ClassifierMixin):
         cat_cumsum = np.cumsum(counts) / len(y)
         
         # Find quantiles in the OOF predictions that match the class frequencies
-        # We only need the inner cuts (between classes)
+        
         self.borders_ = np.quantile(oof_preds, cat_cumsum[:-1])
         
         return self
